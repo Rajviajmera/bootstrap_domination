@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gallery | RPMT Resins Art</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+
+<!-- ================= HEADER ================= -->
+
+<header class="container-fluid">
+
+    <div class="container">
+
+        <div class="row">
+            <!-- Navigation -->
+            <div class="col-12">
+
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-lg rpmt-navbar">
+
+                    <div class="container">
+
+                        <!-- Logo -->
+                        <a class="navbar-brand" href="home.html">
+                            <img src="images/logo.svg"
+                                 class="rpmt-logo"
+                                 alt="RPMT Resins Art">
+                        </a>
+
+                        <!-- Mobile Menu Button -->
+                        <button class="navbar-toggler"
+                                type="button"
+                                data-bs-toggle="offcanvas"
+                                data-bs-target="#mobileMenu"
+                                aria-controls="mobileMenu">
+
+                            <span class="navbar-toggler-icon"></span>
+
+                        </button>
+
+                        <!-- Desktop Menu -->
+                        <div class="collapse navbar-collapse">
+
+                            <ul class="navbar-nav mx-auto">
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="home.html">
+                                        Home
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="shop.html">
+                                        Shop
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="gallery.html">
+                                        Gallery
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">
+                                        About
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">
+                                        Contact
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                            <!-- Social Buttons -->
+                            <div class="d-flex gap-3">
+
+                                <a href="#" class="btn whatsappbtn">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                    Chat with Us
+                                </a>
+
+                                <a href="#" class="btn instagrambtn">
+                                    <i class="fa-brands fa-instagram"></i>
+                                    Instagram
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </nav>
+            </div>
+
+
+    <!-- Mobile Offcanvas Menu -->
+    <div class="offcanvas offcanvas-start"
+         tabindex="-1"
+         id="mobileMenu"
+         aria-labelledby="mobileMenuLabel">
+
+        <div class="offcanvas-header">
+
+            <h5 class="offcanvas-title" id="mobileMenuLabel">
+                RPMT Resins Art
+            </h5>
+
+            <button type="button"
+                    class="btn-close"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close">
+            </button>
+
+        </div>
+
+        <div class="offcanvas-body">
+
+            <ul class="navbar-nav">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="shop.html">
+                        Shop
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="gallery.html">
+                        Gallery
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        About
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+
+<!-- ================= GALLERY INTRO ================= -->
+
+<section class="gallery-intro">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <!-- Text -->
+            <div class="col-lg-6">
+
+                <p class="gallery-small-title">
+                    Handmade Creations
+                </p>
+
+                <h1>
+                    Our <span>Gallery</span>
+                </h1>
+
+                <p>
+                    Explore our beautiful collection of handmade
+                    resin art and customized gifts, created with
+                    love and care.
+                </p>
+
+            </div>
+
+
+            <!-- Decorative Image -->
+            <div class="col-lg-6 text-center">
+
+                <img src="images/logo.svg"
+                     class="gallery-logo"
+                     alt="RPMT Resins Art">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= CATEGORY BUTTONS ================= -->
+
+<section class="gallery-filter">
+
+    <div class="container text-center">
+
+        <button class="gallery-filter-btn active">
+            All Creations
+        </button>
+
+        <button class="gallery-filter-btn">
+            Frames
+        </button>
+
+        <button class="gallery-filter-btn">
+            Keychains
+        </button>
+
+        <button class="gallery-filter-btn">
+            Resin Thali
+        </button>
+
+        <button class="gallery-filter-btn">
+            Rakhi
+        </button>
+
+        <button class="gallery-filter-btn">
+            Phone Covers
+        </button>
+
+        <button class="gallery-filter-btn">
+            Jhula
+        </button>
+
+        <button class="gallery-filter-btn">
+            Car Hanging
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= GALLERY IMAGES ================= -->
+
+<section class="gallery-section">
+
+    <div class="container">
+
+        <div class="row g-3">
+
+
+            <!-- Image 1 -->
+            <div class="col-lg-3 col-md-4 col-6">
+
+                <div class="gallery-item">
+
+                    <img src="images/plain_thali.jpeg"
+                         class="img-fluid"
+                         alt="Resin Thali">
+
+                    <div class="gallery-caption">
+                        Resin Thali
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Image 2 -->
+            <div class="col-lg-3 col-md-4 col-6">
+
+                <div class="gallery-item">
+
+                    <img src="images/rakhi.jpeg"
+                         class="img-fluid"
+                         alt="Resin Rakhi">
+
+                    <div class="gallery-caption">
+                        Resin Rakhi
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Image 3 -->
+            <div class="col-lg-3 col-md-4 col-6">
+
+                <div class="gallery-item">
+
+                    <img src="images/photo_keychain.jpeg"
+                         class="img-fluid"
+                         alt="Photo Keychain">
+
+                    <div class="gallery-caption">
+                        Photo Keychain
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Image 4 -->
+            <div class="col-lg-3 col-md-4 col-6">
+
+                <div class="gallery-item">
+
+                    <img src="images/A_keychain.jpeg"
+                         class="img-fluid"
+                         alt="Resin keychain">
+
+                    <div class="gallery-caption">
+                        Resin Keychain
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Image 5 -->
+            <div class="col-lg-3 col-md-4 col-6">
+
+                <div class="gallery-item">
+
+                    <img src="images/PhoneCover.jpeg"
+                         class="img-fluid"
+                         alt="Resin Phone Cover">
+
+                    <div class="gallery-caption">
+                        Resin Phone Cover
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Image 6 -->
+            <div class="col-lg-3 col-md-4 col-6">
+
+                <div class="gallery-item">
+
+                    <img src="images/big_thali.jpeg"
+                         class="img-fluid"
+                         alt="Resin Big Thali">
+
+                    <div class="gallery-caption">
+                        Resin Thali
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Image 7 -->
+            <div class="col-lg-3 col-md-4 col-6">
+
+                <div class="gallery-item">
+
+                    <img src="images/keychain.jpeg"
+                         class="img-fluid"
+                         alt="Resin Keychain">
+
+                    <div class="gallery-caption">
+                        Resin Keychain
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Image 8 -->
+            <div class="col-lg-3 col-md-4 col-6">
+
+                <div class="gallery-item">
+
+                    <img src="images/car_hanging.jpeg"
+                         class="img-fluid"
+                         alt="Resin Car Hanging">
+
+                    <div class="gallery-caption">
+                        Car Hanging
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Image 9 -->
+            <div class="col-lg-3 col-md-4 col-6">
+
+                <div class="gallery-item">
+
+                    <img src="images/couple_rakhi.jpeg"
+                         class="img-fluid"
+                         alt="Resin Couple Rakhi">
+
+                    <div class="gallery-caption">
+                        Resin Couple Rakhi
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Image 10 -->
+            <div class="col-lg-3 col-md-4 col-6">
+
+                <div class="gallery-item">
+
+                    <img src="images/rakhi.jpeg"
+                         class="img-fluid"
+                         alt="Customized Rakhi">
+
+                    <div class="gallery-caption">
+                        Customized Rakhi
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Image 11 -->
+            <div class="col-lg-3 col-md-4 col-6">
+
+                <div class="gallery-item">
+
+                    <img src="images/Papa_stand.jpeg"
+                         class="img-fluid"
+                         alt="Papa stand">
+
+                    <div class="gallery-caption">
+                        Stand
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Image 12 -->
+            <div class="col-lg-3 col-md-4 col-6">
+
+                <div class="gallery-item">
+
+                    <img src="images/Designer_thali.jpeg"
+                         class="img-fluid"
+                         alt="Customized Thali">
+
+                    <div class="gallery-caption">
+                        Customized Thali
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= BOTTOM MESSAGE ================= -->
+
+<section class="gallery-message">
+
+    <div class="container text-center">
+
+        <h2>
+            Made With Love 💕
+        </h2>
+
+        <p>
+            Every creation tells a special story.
+            Let us create something beautiful for you.
+        </p>
+
+        <a href="shop.html"
+           class="btn gallery-shop-btn">
+            Explore Our Products
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FEATURES ================= -->
+
+<section class="gallery-features">
+
+    <div class="container">
+
+        <div class="row text-center">
+
+            <div class="col-lg-3 col-6">
+
+                <i class="fa-regular fa-heart"></i>
+
+                <h6>Handmade with Love</h6>
+
+                <p>
+                    Every piece is carefully handcrafted.
+                </p>
+
+            </div>
+
+
+            <div class="col-lg-3 col-6">
+
+                <i class="fa-solid fa-truck"></i>
+
+                <h6>Fast & Safe Delivery</h6>
+
+                <p>
+                    Carefully packed for safe delivery.
+                </p>
+
+            </div>
+
+
+            <div class="col-lg-3 col-6">
+
+                <i class="fa-regular fa-star"></i>
+
+                <h6>Custom Designs</h6>
+
+                <p>
+                    Create gifts according to your choice.
+                </p>
+
+            </div>
+
+
+            <div class="col-lg-3 col-6">
+
+                <i class="fa-solid fa-leaf"></i>
+
+                <h6>Unique Designs</h6>
+
+                <p>
+                    Beautiful and creative resin art.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-6">
+
+                <img src="images/logo.svg"
+                     class="footer-logo"
+                     alt="RPMT Resins Art">
+
+                <p>
+                    Handmade with Love • Crafted to Shine
+                </p>
+
+            </div>
+
+
+            <div class="col-lg-3">
+
+                <h6>Quick Links</h6>
+
+                <a href="home.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+
+            <div class="col-lg-3">
+
+                <h6>Follow Us</h6>
+
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        © 2026 RPMT Resins Art | All Rights Reserved.
+
+    </div>
+
+</footer>
+
+
+
+<!-- Bootstrap JS -->
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+</body>
+
+</html>
