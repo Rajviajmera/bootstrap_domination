@@ -1,0 +1,139 @@
+/* =========================================
+   RESPONSIVE STYLES
+========================================= */
+
+/* Small phones */
+@media (max-width: 575.98px) {
+    .btn-outer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        justify-content: center !important;
+        z-index: 1000;
+    }
+
+    .bannerContent h1 {
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 1.2;
+    }
+
+    .bannerContent br {
+        display: none;
+    }
+
+    .bannerContent p {
+        font-size: 20px;
+    }
+
+    .bannerContent ul li {
+        font-size: 15px;
+        color: rgb(138, 96, 28);
+    }
+
+    .bannerContentBtn {
+        flex-direction: column;
+    }
+
+    .bannerContentBtn button {
+        width: 100%;
+    }
+
+    .bannerForm {
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .choose-section h2 {
+        font-size: 27px;
+    }
+
+    .choose-section p {
+        font-size: 15px;
+    }
+
+    .carousel-item img {
+        padding: 20px;
+        object-fit: contain;
+    }
+
+    .shop-logo {
+        width: 120px;
+    }
+
+    .shop-hero {
+        padding: 35px 0;
+    }
+
+    .shop-hero h1 {
+        font-size: 45px;
+    }
+
+    .shop-description {
+        font-size: 17px;
+    }
+
+    .shop-banner {
+        height: 200px;
+        margin-top: 25px;
+        border-radius: 50px 0 0 50px;
+    }
+
+    .category-buttons {
+        justify-content: flex-start !important;
+    }
+
+    .product-card img {
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+/* Navbar layout on tablets and phones */
+@media (max-width: 991.98px) {
+    header.container-fluid nav.rpmt-navbar {
+        min-height: 75px;
+        padding: 8px 0;
+    }
+
+    header nav.rpmt-navbar > .container {
+        min-height: 60px;
+    }
+
+    header nav.rpmt-navbar .navbar-brand {
+        margin-right: 0;
+    }
+
+    header nav.rpmt-navbar .navbar-brand img {
+        width: 75px;
+        height: 60px;
+    }
+
+    header nav.rpmt-navbar .navbar-toggler {
+        margin-left: auto;
+        border-color: #e7b8c9;
+    }
+
+    header nav.rpmt-navbar .navbar-toggler:focus {
+        box-shadow: 0 0 0 0.15rem rgba(214, 51, 132, 0.20);
+    }
+
+    header nav.rpmt-navbar .navbar-collapse > .d-flex,
+    header nav.rpmt-navbar .navbar-collapse > div.d-flex {
+        margin: 12px 0 0;
+        flex-wrap: wrap;
+    }
+}
+
+/* Large desktop container width */
+@media (min-width: 1400px) {
+    .container,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1170px;
+    }
+}
